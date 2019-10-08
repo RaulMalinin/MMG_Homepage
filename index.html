@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <img class="header-logo" src="Img/logo.png" alt="MMGlogo">
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item menu__item-home"><a class="menu__link" href="#">Home</a></li>
+                    <li class="menu__item menu__item-news"><a class="menu__link" href="#">News</a></li>
+                    <li class="menu__item menu__item-products">
+                        
+                        <a class="menu__link select__link" href="#">Products</a>
+                        <ul class="categories-submenu">
+                            <li class="categories-submenu__item">
+                                <a class="categories-submenu__link" href="#">Product №1</a>
+                            </li>
+                            <li class="categories-submenu__item">
+                                <a class="categories-submenu__link" href="#">Product №2</a>
+                            </li>
+                            <li class="categories-submenu__item">
+                                <a class="categories-submenu__link" href="#">Product №3</a>
+                            </li>
+                            <li class="categories-submenu__item">
+                                <a class="categories-submenu__link" href="#">Product №4</a>
+                            </li>
+                        </ul>
+                        <!--<select class="menu__select">
+                            <option><a class="select__link" href="#">Products</a></option>
+                            <option><a class="select__link" href="#">Product1</a></option>
+                            <option><a class="select__link" href="#">Product2</a></option>
+                            <option><a class="select__link" href="#">Product3</a></option>
+                        </select>-->
+                    </li>
+                    <li class="menu__item menu__item-download"><a class="menu__link" href="#">Download</a></li>
+                    <li class="menu__item menu__item-contact"><a class="menu__link" href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                    <a class="login-link">LOGIN</a>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="header-content__BLE">
+                <div class="BLE-title">BLE</div>
+                <div class="BLE-block">BLUETOOTH LOW ENERGY</div>
+                <div class="BLE-technology">TECHNOLOGY</div>
+            </div>
+            <div class="header-content__BLE-categories">
+                <ul class="BLE-categories__list">
+                    <li class="BLE-categories__list-item">
+                        <img class="BLE-categories__icon-index" src="img/icon-index.png" alt="icon-index">
+                        <a class="BLE-categories__link">NEW AVENUE FOR BUSINESS</a>
+                    </li>
+                    <li class="BLE-categories__list-item">
+                        <img class="BLE-categories__icon-net" src="img/icon-net.png" alt="icon-net">
+                        <a class="BLE-categories__link">CREATING A WORLD IN WHICH THE INTERNET EXIST IN OUR LIFE</a>
+                    </li>
+                    <li class="BLE-categories__list-item">
+                        <img class="BLE-categories__icon-world" src="img/icon-world.png" alt="icon-world">
+                        <a class="BLE-categories__link">ACTUALIZING THE CHANGING WORLD THROUGH Iot</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>   
+    <main class="main">
+        <section class="main__slider">
+                <div class="slider__block1"></div>
+                <div class="block1__content">
+                        <div class="block1__text content-text">
+                            <span class="content-text__title-line1">OUR FIRST PRODUCT OF THE IoT IS</span>
+                            <span class="content-text__title-line2">BOT-CHECKIN</span>
+                            <p class="content-text__text">An efficient device for human resource manager<br>
+                                    The best replacement for the traditional time attendance checking methods such as Finger print scanner, Face recognition machine...</p>
+                        </div>
+                        <div class="slider__btn-link-wrap">
+                            <a class="slider__btn-link1 btn-link">VIEW BOT-CHECKIN</a>
+                        </div>
+                        <div class="slider__switch">
+                            <input type="radio" name="switch" id="btn1"  checked>
+                            <input type="radio" name="switch" id="btn2">
+                            <input type="radio" name="switch" id="btn3">
+                            <input type="radio" name="switch" id="btn4">
+
+                            <label for="btn1" class="switch__btn"></label>
+                            <label for="btn2" class="switch__btn"></label>
+                            <label for="btn3" class="switch__btn"></label>
+                            <label for="btn4" class="switch__btn"></label>
+                        </div>
+                </div>
+        </section>
+        <section class="main__function">
+            <div class="function-categories">
+                <ul class="function-categories__list">
+                    <li class="function-categories__list-item">   
+                        <img class="function-categories__icon" src="img/FunctionReloadIcon.png" alt="reolad-icon" >
+                        <div class="function-categories__text">
+                            <h3 class="function-categories__text-title function-categories__text-title1">
+                                <span>Easy </span><span>managment</span>
+                            </h3>
+                            <p class="function-categories__text-content">Administrators can log in the website to manage employees and make employee attendance reports</p>
+                        </div>
+                    </li>
+                    <li class="function-categories__list-item">
+                        <img class="function-categories__icon" src="img/FunctionInboxIcon.png" alt="inbox-icon" >
+                        <div class="function-categories__text">
+                            <h3 class="function-categories__text-title function-categories__text-title2">
+                                <span>Low </span><span>cost, </span><span>Easy </span><span>to use, </span>
+                            </h3>
+                            <p class="function-categories__text-content">You do not have to buy time attendance machines at high prices, instead of that, you can deploy the system easily just with a beacon</p>
+                        </div>
+                    </li>
+                    <li class="function-categories__list-item">
+                        <img class="function-categories__icon" src="img/FunctionClockIcon.png" alt="clock-icon" >
+                        <div class="function-categories__text">
+                            <h3 class="function-categories__text-title function-categories__text-title3">
+                                <span>Check in / check out </span><span>Quickly</span>
+                            </h3>
+                            <p class="function-categories__text-content">Employees will not be expected to queue up for check in, they can use the app to check in and check out immediately</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="main__download">
+            <div class="download__info">
+                <h3 class="download__info-title">
+                    <span>Download </span><span>to get started</span>
+                </h3>
+                <p class="download__info-text">
+                    A better way to present your apps, Now available on
+                    the App Store and Play Store!
+                </p>
+            </div>
+            <div class="download__get">
+                <a class="download__get-google-link" href="#">
+                    <img src="svg/gplay.svg" alt="google-play-badge" class="google-play-icon">
+                </a>
+                <a class="download__app-store-link" href="#">
+                        
+                    <img src="svg/istore.svg" alt="app-store-badge" class="app-store-icon">
+                </a>
+            </div>
+        </section>
+        <section class="main__news">
+            <div class="news__container">
+                <div class="news__card1 news__card">
+                    <img class="news__card1-image news__card-image" src="img/news-image1.JPG" alt="news cellular IoT">
+                    <div class="news__card1-text news__card-text">
+                        <h3 class="card-text__title">Why should cellular IoT be different to other technology rollouts?</h3>
+                        <a class="card-text__link" href="#">Along comes the Internet of Things, and for some reason, 
+                            the pundits begin to talk about the importance of introducing low-cost modules as an enabler 
+                            for the market to take off.
+                        </a>
+                    </div>
+                    <div class="news__card1-footer news__card-footer">
+                        <span class="news__card-footer-date">Date: 20-07-2017</span>
+                        <a class="news__card-footer-comment" href="#">Comment: 0</a>
+                    </div>
+                </div>
+                <div class="news__card2 news__card">
+                    <img class="news__card2-image news__card-image" src="img/news-image2.jpg" alt="news homeland security">
+                    <div class="news__card3-text news__card-text">
+                        <h3 class="card-text__title">Homeland Security invests $750k to secure IoT disaster sensors</h3>
+                            <a class="card-text__link" href="#">The Department of Homeland Security (DHS) has 
+                                announced a $750k investment to develop a solution 
+                                which bolsters the security of IoT disaster sensors.
+                            </a>
+                    </div>
+                    <div class="news__card2-footer news__card-footer">
+                        <span class="news__card-footer-date">Date: 20-07-2017</span>
+                        <a class="news__card-footer-comment" href="#">Comment: 0</a>
+                    </div>
+                </div>
+                <div class="news__card3 news__card">
+                    <img class="news__card3-image news__card-image" src="img/news-image3.jpg" alt="news IoT security" >
+                    <div class="news__card3-text news__card-text">
+                        <h3 class="card-text__title">Why IoT security is so important - and what to do about it</h3>
+                            <a class="card-text__link" href="#">Is there a market hotter than the IoT? As manufacturers
+                                 connect the internet to everything from baby monitors 
+                                 to automobiles, economic analysts such as Bain and
+                                  McKinsey predict...
+                            </a>
+                    </div>
+                    <div class="news__card3-footer news__card-footer">
+                        <span class="news__card-footer-date">Date: 20-07-2017</span>
+                        <a class="news__card-footer-comment" href="#">Comment: 0</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__contact">
+            <div class="contact__text">
+                <h3>
+                    <span>Contact </span><span> with us</span>
+                </h3>
+                <p>Contact us by phone or gmail to order new services, track orders and get customer 
+                    service or tech support. 
+                </p>
+            </div>
+            <form class="contact__form" method="GET" action="">
+                <input class="your-name" type="text" placeholder="Your Name" >
+                <input class="mail-address" type="email" placeholder="Email Address">
+                <textarea  class="message" type="text" placeholder="Message..."></textarea>
+                <button class="btn-send" type="submit">SEND</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__company">
+            <h3 class="footer__title">Company</h3>
+            <nav class="footer__menu">
+                <ul class="footer__menu-list nav-list">
+                    <li class="footer__menu-item nav-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="footer__menu-item nav-item">
+                        <a href="#">News</a>
+                    </li>
+                    <li class="footer__menu-item nav-item">
+                        <a href="#">Download</a>
+                    </li>
+                    <li class="footer__menu-item nav-item">
+                        <a href="#">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="footer__products">
+            <h3 class="footer__title">Company</h3>
+            <nav class="footer__menu">
+                <ul class="footer__menu-list prod-list">
+                    <li class="footer__menu-item prod-list">
+                        <a href="#">BOT-CHECKIN</a>
+                    </li>
+                    <li class="footer__menu-item prod-list">
+                        <a href="#">SMART HOME</a>
+                    </li>
+                    <li class="footer__menu-item prod-list">
+                        <a href="#">SMART CAR</a>
+                    </li>
+                    <li class="footer__menu-item prod-list">
+                        <a href="#">SMART WALLET</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="footer__other-links">
+            <h3 class="footer__title">Other links</h3>
+            <nav class="footer__menu">
+                <ul class="footer__menu-list links-list">
+                    <li class="footer__menu-item links-list">
+                        <a href="#">Customer Portal</a>
+                    </li>
+                    <li class="footer__menu-item links-list">
+                        <a href="#">Support Portal</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="footer__contcats">
+            <ul class="footer__menu-list contacts-list">
+                <li class="footer__menu-item contacts-item">
+                    <img src="img/phone-icon.png">
+                    <span>+84 2432 004 887 / +84 983 104 170</span>
+                </li>
+                <li class="footer__menu-item contacts-item">
+                    <img src="img/mail-icon.png">
+                    <span>contact@mmg.vg</span>
+                </li>
+                <li class="footer__menu-item contacts-item">
+                    <img src="img/point.png">
+                    <span>9th floor, Hanoi Women's Union
+                            building, 07 Ton That Thuyet street,
+                            Cau Giay dist, Hanoi, Vietnam</span>
+                </li>
+            </ul>
+        </section>
+    </footer>                     
+</body>
+</html>
