@@ -203,7 +203,7 @@ body {
         display: grid;
         grid-template-columns: 1.35fr 0.7fr repeat(11, 1fr) 1.35fr;
         grid-template-rows: 115px 320px 1fr;
-        background-image: url("./Img/header-content-bg.png");
+        background-image: url("./img/header-content-bg.png");
         background-size: cover;
     }
 
@@ -323,7 +323,6 @@ body {
     width: 100%;
     max-width: 1440px;
     height: 3178px;
-    background: green;
 }
 
     .main__slider {
@@ -338,7 +337,7 @@ body {
         .slider__block1 {
             grid-column: 1 / 15;
             grid-row: 1 / 4;
-            background-image: url("./Img/slide-bg.jpg");
+            background-image: url("./img/slide-bg.jpg");
             background-size: cover;
         }
 
@@ -454,7 +453,7 @@ body {
         grid-template-columns: 1.35fr 0.7fr repeat(11, 1fr) 1.35fr;
         grid-template-rows: 90px 1fr 100px;
         background-color: #faf7f7;
-        background-image: url("./Img/function-bg.png");
+        background-image: url("./img/function-bg.png");
         background-size: cover;
     }
     
@@ -574,7 +573,7 @@ body {
         display: grid;
         grid-template-columns: 1.35fr 0.7fr repeat(11, 1fr) 1.35fr;
         grid-template-rows: 225px 100px 57px 66px 1fr;
-        background-image: url('./Img/download-bg.jpg');
+        background-image: url('./img/download-bg.jpg');
         background-size: cover;
     }
 
@@ -770,7 +769,7 @@ body {
         display: grid;
         grid-template-columns: 1fr 630px 1fr;
         grid-template-rows: 90px 100px 64px 360px 1fr;
-        background-image: url('./Img/contact-bg.jpg');
+        background-image: url('./img/contact-bg.jpg');
         background-size: cover;
     }
 
