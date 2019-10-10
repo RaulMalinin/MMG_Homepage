@@ -26,7 +26,8 @@ ul, li {
 }
 
 body {
-    width: 100%;
+    /*width: 100%;*/
+    width: 1440px;
     height: 4175px;
     display: -webkit-box;
     display: -ms-flexbox;
